@@ -8,7 +8,6 @@ end
 
 def new
    @quote = Quote.new
- end
 end 
 
 def create
@@ -24,5 +23,5 @@ def quote_params
 
   params.require(:quote).permit(:saying, :author)
   
-  end
+  
 end
