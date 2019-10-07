@@ -4,4 +4,5 @@ Rails.application.routes.draw do
  
   resources :quotes
   
+  get 'about', to: 'quotes#about'
 end
